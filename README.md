@@ -1,1 +1,0 @@
-# 01.02._Strategy_pattern._Different_ways_to_attack_dragons

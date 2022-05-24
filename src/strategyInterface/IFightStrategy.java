@@ -1,4 +1,4 @@
-package StrategyInterface;
+package strategyInterface;
 
 /**
  * IStrategy.

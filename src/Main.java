@@ -1,13 +1,25 @@
-import StrategyImplementation.BeTheBatmanFightStrategy;
+import strategyImplementation.BeTheBatmanFightStrategy;
+import strategyImplementation.FightStrategyForBlindDragon;
+import strategyImplementation.FightStrategyForHigherLevelDragon;
 
 public class Main {
 
     public static void main(String[] args) {
+        // Test a fight with a higher level dragon.
+        Fight fightWithHigherLevelDragon = new Fight(new FightStrategyForHigherLevelDragon());
+        fightWithHigherLevelDragon.fight();
+        fightWithHigherLevelDragon.showBattleResult();
+        System.out.println();
 
-        // Choose any fight strategy type.
-        Fight BATMAN = new Fight(new BeTheBatmanFightStrategy());
+        // Test a fight with a blind dragon.
+        Fight fightWithBlindDragon = new Fight(new FightStrategyForBlindDragon());
+        fightWithBlindDragon.fight();
+        fightWithBlindDragon.showBattleResult();
+        System.out.println();
 
-        BATMAN.fight();
-        BATMAN.showBattleResult();
+        // Be the Batman;
+        Fight fightBatman = new Fight(new BeTheBatmanFightStrategy());
+        fightBatman.fight();
+        fightBatman.showBattleResult();
     }
 }

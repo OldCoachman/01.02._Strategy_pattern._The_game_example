@@ -1,4 +1,4 @@
-import StrategyInterface.IFightStrategy;
+import strategyInterface.IFightStrategy;
 
 public class Fight {
     IFightStrategy fightStrategy;

@@ -3,3 +3,4 @@ Suppose, we have the following problem:
 dragons."
 
 So, we have another way to demonstrate the Strategy pattern :)
+P.S. Check the UML diagram.
